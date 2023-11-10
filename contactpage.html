@@ -18,7 +18,7 @@
       <p id="logo">Ismihana Imamovic</p>
       <nav>
         <ul>
-          <a href="#">
+          <a href="index.html">
             <li>Home</li>
           </a>
           <a href="#">
@@ -34,16 +34,51 @@
       </nav>
     </header>
     <body>
-      <div class="container">
-        <h1>Connect With Me</h1>
-        <p>
-          I would love to get in touch with you. Don't hesitate to contact me
-          down below.
-        </p>
-        <p class="intro">Email: ismiiihanaaa@gmail.com</p>
-        <p class="intro">Contact number :+46 977 321 8777</p>
+      <h1>Connect With Me</h1>
+      <p>
+        I would love to get in touch with you. Write your information down below
+        and submit.
+      </p>
+      <form>
+        <label for="fname">First Name:</label><br />
+        <input type="text" name="fname" id="fname" />
+      </form>
+
+      <form>
+        <label for="lname">Last Name:</label><br />
+        <input type="text" name="lname" id="lname" />
+      </form>
+
+      <form>
+        <label for="E-mail">E-mail:</label><br />
+        <input type="text" name="E-mail" id="E-mail" />
+      </form>
+
+      <p>Choose what you are interested in:</p>
+
+      <div>
+        <input type="radio" id="Paintings" name="brand" value="Paintings" />
+        <label for="Paintings">Paintings</label>
       </div>
+
+      <div>
+        <input
+          type="radio"
+          id="Other question"
+          name="brand"
+          value="Other question"
+        />
+        <label for="Other question">Other question</label>
+      </div>
+
+      <div>
+        <input type="radio" id="Prices" name="brand" value="Prices" />
+        <label for="Prices">Prices</label>
+      </div>
+
+      <input type="Submit" value="Submit" />
     </body>
+
     <footer>
       <p>© Ismihana Imamovic 2023</p>
     </footer>
