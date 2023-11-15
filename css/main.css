@@ -16,6 +16,8 @@ header {
   display: inline;
   padding: 4px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  max-width: 600rem;
+  min-width: none;
 }
 
 ul {
@@ -32,6 +34,23 @@ a {
   color: darkred;
 }
 
+@media screen and (max-width: 632px) {
+  header,
+  ul {
+    flex-direction: column;
+    align-items: start;
+  }
+
+  ul {
+    margin-top: 0;
+  }
+
+  li {
+    margin-left: 0;
+    margin-bottom: 1rem;
+  }
+}
+
 /* MAIN */
 
 .main-img {
@@ -44,6 +63,10 @@ a {
 
 .paintingfont {
   font-family: cursive;
+}
+
+.category-container {
+  max-width: 60rem;
 }
 
 /* CATEGORY SECTION */
