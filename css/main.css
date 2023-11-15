@@ -71,11 +71,6 @@ a {
 
 /* CATEGORY SECTION */
 
-.category-container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-}
-
 figure {
   margin-left: 0;
 }
@@ -84,7 +79,21 @@ figure {
   width: 100%;
 }
 
+@media screen and (min-width: 632px) {
+  .category-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (min-width: 1105px) {
+  .category-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
 /* BODY */
+
 h1 {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
