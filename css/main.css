@@ -63,10 +63,26 @@ a {
 
 .paintingfont {
   font-family: cursive;
+  text-align: left;
+  margin-right: 10rem;
 }
 
 .category-container {
   max-width: 60rem;
+}
+
+.womansback {
+  width: 300px;
+  margin-left: 10px;
+}
+
+.smalltextunder {
+  text-align: left;
+  width: 200px;
+  font-family: fantasy;
+  float: left;
+  margin-top: 2px;
+  color: indigo;
 }
 
 /* CATEGORY SECTION */
